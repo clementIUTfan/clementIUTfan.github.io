@@ -1,0 +1,89 @@
+h1{
+    color: #decccc;
+    font-size: 100px;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    align-items: center;      /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+}
+
+.dm-sans-semibold-italic {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #C97B84;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+.bg-item {
+  position: absolute;
+  z-index: -1;         /* Place l'élément DERRIÈRE le texte */
+  pointer-events: none; /* Empêche les éléments de bloquer les clics */
+  user-select: none;    /* Empêche de pouvoir sélectionner le texte de l'emoji */
+  opacity: 0.7;         /* Légère transparence */
+}
+
+
+.emoji-1 {
+  top: 15%;
+  left: 10%;
+  font-size: 3.5rem;
+  transform: rotate(-20deg); /* Inclinaison vers la gauche */
+}
+
+.emoji-2 {
+  bottom: 25%;
+  right: 12%;
+  font-size: 4rem;
+  transform: rotate(25deg);  /* Inclinaison vers la droite */
+}
+
+.emoji-3 {
+  top: 20%;
+  right: 15%;
+  font-size: 3rem;
+  transform: rotate(-10deg);
+}
+
+.jazz{
+    bottom: 15%;
+    left: 17%;
+    transform: rotate(15deg);
+}
+
+.jazz img{
+    width : 10%;
+    height: auto;
+}
